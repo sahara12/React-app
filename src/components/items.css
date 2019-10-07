@@ -1,0 +1,19 @@
+.item:first-of-type {
+background: pink;
+}
+
+.item:nth-of-type(2) {
+background: blue;
+}
+
+
+.item:nth-of-type(3) {
+background: yellow;
+}
+
+.item{
+    padding: 1%;
+    margin: 2%;
+    
+}
+

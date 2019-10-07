@@ -1,0 +1,14 @@
+{
+ "ebay" : {
+        "type": "online auction site",
+        "logoLocation": "./img1.jpg"
+    },
+ "treehouse" : {qqqqq1  
+        "type": "online learning site",
+        "logoLocation": "./img2.jpg"
+    },
+ "lawnmower" : {
+        "type": "household gardening",
+        "logoLocation": "./img3.jpg"
+    }
+}
