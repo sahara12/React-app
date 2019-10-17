@@ -1,21 +1,26 @@
 import React, {Component}  from 'react';
+import {Link , NavLink} from 'react-router-dom';
 
 const Nav = () => {
     
     return(
+        
+        
     
-    <div>
-       <a href="#">Logo</a>
+    <div className="navbar">
+        <div className="container">
+       <a href="#" className="logo">Logo</a>
         
         <ul>
         
-        <a href="/">Home </a>
-        <a href="/">About </a>
+        <NavLink activeClassName="selected" exact to="/">Home </NavLink>
+        <NavLink activeClassName="selected" to="/about">About </NavLink>
+             <NavLink activeClassName="selected" to="blog">Blog </NavLink>
         
         
         </ul>
         
-        
+        </div>
         </div>
     
     
@@ -24,4 +29,5 @@ const Nav = () => {
     
 }
 
-export default Nav;
+
+export default Nav; 

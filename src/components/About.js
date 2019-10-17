@@ -1,4 +1,4 @@
-return React, {Component}  from 'react';
+  import React, {Component}  from 'react';
 
 const About = () => {
     
@@ -7,7 +7,7 @@ const About = () => {
     <div>
         <h2>About</h2>
         
-        <p>This is home </p>
+        <p>This is about </p>
         
         
         
